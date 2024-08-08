@@ -3,12 +3,24 @@ const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
 const caixaResultado = document.querySelector('.caixa-resultado');
 
-const perguntas = [//abre uma lista qualquer
-    {//abre o objeto da lista (cada item)
+const perguntas = [
+    {
         enunciado: "Pergunta 1",
-        alternativas:[
-            "Alternativa 1",
-            "Alternativa 2"
-        ]
-    }//fechar a o objeto da lista (fim do item)
-]//fechando a lista toda (completa)
+        alternativas:["Alternativa 1","Alternativa 2"]
+    },
+    {
+        enunciado: "Pergunta 2",
+        alternativas:["Alternativa 1","Alternativa 2"]
+    },
+    {
+        enunciado: "Pergunta 3",
+        alternativas:["Alternativa 1","Alternativa 2"]
+    }
+]
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(){
+    
+}
