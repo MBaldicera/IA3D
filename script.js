@@ -57,8 +57,8 @@ function mostraAlternativas() {
     }
 }
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmativa;
-    respostas += afirmacoes;
+    const afirmacoes = opcaoSelecionada.afirmação;
+    respostas += afirmacoes + " ";
     posicao++;
     mostraPergunta();
 }
